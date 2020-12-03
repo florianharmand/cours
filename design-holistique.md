@@ -165,20 +165,32 @@ https://www.xmind.net/fr/
 
 ### 2.2. Représentations réticulaires
 
-https://observablehq.com/@d3/gallery
+Le recours aux représentations réticulaires permises par des librairies d'algorithmes permet parfois de réveler des phénomènes impossible à repérer pour l'humain depuis les données brutes. Dans un "raisonnement graphique", il devient possible d'appréhender la complexité à l'aide d'outils numériques.
 
+* La librairies de code D3.js offre de nombreuses représentations :
+https://observablehq.com/@d3/gallery
+* Le site de Generative Gestaltung permet d'expérimenter différentes représentations réticulaires (et autres) :
 http://www.generative-gestaltung.de/1/code
 
 ### 2.3. Étude intrinsèque
 
-Abraham Moles
+> La notion de complexité mesure une propriété inhérente à un univers combinatoire et comporte autant d'aspects, c'est-à-dire de dimensions, que l'individu découvre de nouveaux points de vue sur le monde extérieur. Deux de ces dimensions sont liées à la description d'un système ou organisme unitaire : la complexité structurelle et la complexité fonctionnelle. (Moles, 1969, p. 51)
 
-### 2.4.Schémas et diagrammes
+> « Une machine à écrire, “c'est fait de …”, suit une liste de pièces. » (Moles, 1972, p. 29)
+
+> « Une machine à écrire : c’est fait “pour écrire”. » (Moles, 1972, pp. 28-29)
+
+
+### 2.4. Schémas et diagrammes
 
 Recoupe Moles
 
 http://www.revue-backoffice.com/numeros/02-penser-classer-representer/joost-grootens-ambiguite-design-cartographique
 
 Hodge,  G.  (2000)  Systems  of  Knowledge  Organization  for  Digital  Libraries:  Beyond  Traditional Authority  Files,  The  Digital  Library  Federation  Council  on  Library  and  Information  Resources http://www.clir.org/pubs/abstract/pub91abst.html
+
+Moles Abraham. Théorie de la complexité et civilisation industrielle. In: Communications, 13, 1969. Les objets. pp. 51-63.
+
+Abraham Moles, Théorie des objets, éditions Universitaires, 1972
 
 Zacklad Manuel, « Le design de l'information : textualisation, documentarisation, auctorialisation », Communication & langages, 2019/1 (N° 199), p. 37-64. DOI : 10.3917/comla1.199.0037. URL : https://www-cairn-info.ezproxy.u-bordeaux-montaigne.fr/revue-communication-et-langages-2019-1-page-37.htm
