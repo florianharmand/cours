@@ -18,7 +18,7 @@ Comme ils considèrent des items d'un tout en relations, analysent des élément
 
 #### Essai de définition
 
-Un système peut être défini par un ensemble d'items en interrelations. Il est structuré et organise ses items vers une fin donnée. L'historien Bertrand Gille parle de **système technique** pour désigner le phénomène d'interconnexion des techniques d'une époque et leur interdépendance avec des systèmes non technique : juridique, culturel, etc.(Gille, 1978). Le technocritique Jacques Ellul emploie le terme de **système technicien** pour désigner l'ensemble des techniques (unifiées par l'informatique) qui transforme notre société tout entière de l'intérieur (Ellul, 2012 [1977]). Dans un autre registre, évoquons les **systèmes d'organisation des connaissances** (Zacklad, 2019) qui sont des méthodes d'organisation de la connaissance visant à les relier, les rendre accessible et compréhensibles. Ces trois exemples d'emploi du terme de système touchent de près ou de loin le design mais ont en commun d'étudier un phénomène dans sa globalité, dans l'analyse des différents éléments et de leurs interactions.
+Un système peut être défini par un ensemble d'items en interrelations. Il est structuré et organise ses items vers une fin donnée. L'historien Bertrand Gille parle de **système technique** pour désigner le phénomène d'interconnexion des techniques d'une époque et leur interdépendance avec des systèmes non technique : juridique, culturel, etc. (Gille, 1978). Le technocritique Jacques Ellul emploie le terme de **système technicien** pour désigner l'ensemble des techniques (unifiées par l'informatique) qui transforme notre société tout entière de l'intérieur (Ellul, 2012 [1977]). Dans un autre registre, évoquons les **systèmes d'organisation des connaissances** (Zacklad, 2019) qui sont des méthodes d'organisation de la connaissance visant à les relier, les rendre accessible et compréhensibles. Ces trois exemples d'emploi du terme de système touchent de près ou de loin le design mais ont en commun d'étudier un phénomène dans sa globalité, dans l'analyse des différents éléments et de leurs interactions.
 
 Le biologiste autrichien Ludwig von Bertalanffy a passé une partie de sa vie à étudier et théoriser les systèmes. Il est l'auteur de la Théorie Générale des Systèmes, publiée en 1968, mais l'idée d'une science des systèmes avait déjà germé trente ans plus tôt. 
 
@@ -153,13 +153,29 @@ Nous avons déjà vu que certains organismes tels que l’homme, tendent un mome
 
 ## 2. Méthodes et outils
 
+### Introduction
+
+Le système, le réseau et le dispositif ne sont pas que des abstractions théoriques. Ils peuvent être employés dans la pratique.
+
 ### 2.1. Carte heuristique
+
+https://www.mindmaps.app/
+
+https://www.xmind.net/fr/
 
 ### 2.2. Représentations réticulaires
 
+https://observablehq.com/@d3/gallery
+
+http://www.generative-gestaltung.de/1/code
+
 ### 2.3. Étude intrinsèque
 
+Abraham Moles
+
 ### 2.4.Schémas et diagrammes
+
+Recoupe Moles
 
 http://www.revue-backoffice.com/numeros/02-penser-classer-representer/joost-grootens-ambiguite-design-cartographique
 
