@@ -4,9 +4,9 @@
 
 ### 1.0. Introduction
 
-La pratique du design requiert parfois de gagner en abstraction pour faire face à la complexité d'un problème. En effet, il peut être nécessaire de sortir de l'exercice pragmatique et intuitif quotidien pour faire appel à des notions et concepts à même de faire avancer le projet de design.
+La pratique du design requiert parfois de gagner en abstraction pour faire face à la complexité d'un problème. En effet, il peut être salvateur de s'extraire pour un temps de l'exercice pragmatique et intuitif quotidien pour faire appel à des concepts à même de faire avancer le projet de design.
 
-Le design numérique, champ spécifique du design frayant avec les techniques numériques, est coutumier des situations et projets complexes. Sa position nodale et nexiale le positionne *de facto* à l'intersection de nombreuses disciplines et de nombreux domaines. Mais la méta-discipline du design n'est pas en reste, elle requiert tout autant des concepts opératoires soutenant les pratiques des designers.
+Le design numérique, champ spécifique du design frayant avec les techniques numériques, est coutumier des situations et projets complexes. Sa position nodale (intersection) et nexiale (articulant les disciplines) le positionne *de facto* à l'intersection de nombreuses disciplines et de nombreux domaines. Mais la méta-discipline du design n'est pas en reste, elle requiert tout autant des concepts opératoires soutenant les pratiques des designers.
 
 Pour autant ces concepts ne sont pas des théories hors-sol. Ils proviennent eux-mêmes, pour la plupart, de réflexions et prises de recul depuis le terrain : ils sont les fruits d'une **approche réfléxive** du design.
 
