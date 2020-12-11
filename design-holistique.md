@@ -174,6 +174,8 @@ La carte heuristique est donc un objet qui se thématise, elle éclaire le proje
 https://www.xmind.net/fr/
 * Mindmaps.app :
 https://www.mindmaps.app/
+* Miro :
+https://miro.com/mind-map/
 
 ### 2.2. Représentations réticulaires
 
