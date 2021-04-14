@@ -1,31 +1,117 @@
-.grid {
+@font-face {
+  font-family: 'Karrik';
+  src: url('fonts/Karrik-Regular.woff2') format('woff2'),
+      url('fonts/Karrik-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.logo {grid-area: logo;}
+header {grid-area: nav;}
+.lab {grid-area: lab}
+.services{grid-area: services}
+footer {grid-area: footer}
+#credits {grid-area: credits}
+
+
+.grid
+{
   display: grid;
-  grid-template-columns: 150px auto 150px;
-  grid-template-rows: repeat(3, 100px);
-  grid-gap: 1em;
+  grid-gap: 20px;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(6, minmax(50px, auto));
+  grid-template-areas:  "logo"
+                        "nav"
+                        "lab"
+                        "services"
+                        "credits"
+                        "footer";
 }
 
 header,
 aside,
 article,
-footer {
+footer,
+.logo,
+.services,
+.credits {
   background: #eaeaea;
   padding: 1em;
 }
 
-header, footer {
-  grid-column: 1 / 4;
+nav {
+  flex: 1;
+}
+
+.menu {
+  padding: 0;
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+}
+
+.menu a {
+  display: block;
+  text-decoration: none;
+  transition-property: color;
+  transition-duration: 0.3s;
+  padding: 1em 3em;
+  font-family: "Karrik";
+  font-size: 1em;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+.menu a:hover {
+  color: #ff9933;
+}
+
+.services{
+  display: flex;
+}
+
+.lab {
+  padding: 1em 4em;
+}
+
+h1 {
+  font-family: "Karrik";
+  font-size: 1.6em;
+  font-weight: normal;
+  text-transform: uppercase;
 }
 
 /* Demo Specific Styles */
 body {
   margin: 0 auto;
-  max-width: 56em;
+  max-width: 60em;
   padding: 1em 0;
 }
 
-.grid > * {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+
+
+@media screen and (min-width: 768px)
+{
+  .grid
+  {
+    background: pink;
+    grid-gap: 1em;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(5, minmax(100px, auto));
+    grid-template-areas:  "logo nav nav nav nav nav"
+                          "lab lab lab lab lab lab"
+                          "services services services services services services"
+                          "credits credits credits credits credits credits"
+                          "footer footer footer footer footer footer";
+  }
+  .grid > * {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .services div{
+    flex: 1;
+  }
 }
