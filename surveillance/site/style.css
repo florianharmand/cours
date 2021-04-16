@@ -7,6 +7,19 @@
   font-display: swap;
 }
 
+@font-face {
+  font-family: 'Millimetre Light';
+  src: url('fonts/Millimetre-Light.woff2') format('woff2'),
+      url('fonts/Millimetre-Light.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  font-family: "Millimetre Light";
+}
+
 .logo {grid-area: logo;}
 header {grid-area: nav;}
 .lab {grid-area: lab}
@@ -36,7 +49,6 @@ footer,
 .logo,
 .services,
 .credits {
-  background: #eaeaea;
   padding: 1em;
 }
 
@@ -52,11 +64,12 @@ nav {
 }
 
 .menu a {
+  color: #000000;
   display: block;
   text-decoration: none;
   transition-property: color;
   transition-duration: 0.3s;
-  padding: 1em 3em;
+  padding: 1em 2em;
   font-family: "Karrik";
   font-size: 1em;
   font-weight: normal;
@@ -82,6 +95,23 @@ h1 {
   text-transform: uppercase;
 }
 
+.logo img {
+  max-width: 100%;
+}
+
+.services > div {
+  padding: 1em;
+}
+
+.services h2 {
+  font-family: "Karrik Regular";
+  font-size: 1em;
+}
+
+.services img {
+  max-width: 100%;
+}
+
 /* Demo Specific Styles */
 body {
   margin: 0 auto;
@@ -95,11 +125,10 @@ body {
 {
   .grid
   {
-    background: pink;
     grid-gap: 1em;
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: repeat(5, minmax(100px, auto));
-    grid-template-areas:  "logo nav nav nav nav nav"
+    grid-template-areas:  "logo logo nav nav nav nav"
                           "lab lab lab lab lab lab"
                           "services services services services services services"
                           "credits credits credits credits credits credits"
