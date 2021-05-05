@@ -24,7 +24,7 @@ body {
 header {grid-area: nav;}
 .lab {grid-area: lab}
 .services{grid-area: services}
-footer {grid-area: footer}
+#references {grid-area: references}
 #credits {grid-area: credits}
 
 
@@ -39,7 +39,7 @@ footer {grid-area: footer}
                         "lab"
                         "services"
                         "credits"
-                        "footer";
+                        "references";
 }
 
 header,
@@ -49,7 +49,7 @@ footer,
 .logo,
 .services,
 .credits {
-  padding: 1em;
+  padding: 1em 0;
 }
 
 nav {
@@ -74,10 +74,22 @@ nav {
   font-size: 1em;
   font-weight: normal;
   text-transform: uppercase;
+  transition: all 0.2s;
 }
 
-.menu a:hover {
-  color: #ff9933;
+.menu li:nth-child(1) a:hover{
+  color: orange;
+}
+
+.menu li:nth-child(2) a:hover{
+  color: #223eef;
+}
+
+.menu li:nth-child(3) a:hover{
+  color: #FF00FF;
+}
+.menu li:nth-child(4) a:hover{
+  color: #F72A00;
 }
 
 .services{
@@ -85,31 +97,84 @@ nav {
 }
 
 .lab {
-  padding: 1em 4em;
+  padding: 1em 1em 1em 2em;
+  background: black;
+  color: white;
 }
 
-h1 {
+h2 {
   font-family: "Karrik";
   font-size: 1.6em;
   font-weight: normal;
   text-transform: uppercase;
 }
 
+p{
+  line-height: 1.5;
+}
+
+.subtitle {
+  line-height: 1;
+}
+
+img{
+  max-width: 100%;
+}
+
 .logo img {
   max-width: 100%;
 }
 
-.services > div {
+.services a{
+  text-decoration: none;
+  color: black;
+  border: 2px solid white;
+  box-sizing: border-box;
   padding: 1em;
+  transition: all 0.3s;
 }
 
-.services h2 {
+.services a.dissimulation:hover {
+  border: 2px solid #223eef;
+}
+
+.services a.reflexion:hover {
+  border: 2px solid #FF00FF;
+}
+
+.services a.saturation:hover {
+  border: 2px solid #F72A00;
+}
+
+.services h3 {
   font-family: "Karrik Regular";
-  font-size: 1em;
+  font-size: 2em;
+  font-weight: normal;
+  letter-spacing: 2px;
 }
 
 .services img {
   max-width: 100%;
+}
+
+#credits {
+  background: black;
+  color: white;
+  padding: 1em;
+}
+
+#credits a {
+  color: white;
+}
+#credits a:hover {
+  color: orange;
+}
+
+
+#references {
+  background: black;
+  color: white;
+  padding: 1em;
 }
 
 /* Demo Specific Styles */
@@ -132,15 +197,39 @@ body {
                           "lab lab lab lab lab lab"
                           "services services services services services services"
                           "credits credits credits credits credits credits"
-                          "footer footer footer footer footer footer";
+                          "references references references references references references";
   }
   .grid > * {
     display: flex;
-    align-items: center;
     justify-content: center;
   }
 
-  .services div{
+  .services a{
     flex: 1;
+    min-height: 540px;
+  }
+  .lab-inner {
+    display: flex;
+    align-items: inherit;
+  }
+  .lab-inner .text-desc {
+    flex: 3;
+  }
+  .lab-inner .image-desc {
+    flex: 2;
+    margin-left: 1em;
+  }
+  .logo {
+    display: block;
+    align-self: center;
+  }
+  #credits h2, #references h2 {
+    flex: 1;
+  }
+  #credits p, #references p {
+    flex: 2;
+  }
+  #credits ul, #references ul {
+    flex: 2;
   }
 }
