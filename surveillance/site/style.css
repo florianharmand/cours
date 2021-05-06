@@ -20,6 +20,10 @@ body {
   font-family: "Millimetre Light";
 }
 
+.hidden {
+  display: none;
+}
+
 .logo {grid-area: logo;}
 header {grid-area: nav;}
 .desc {grid-area: desc}
@@ -87,10 +91,10 @@ nav {
   color: #223eef;
 }
 
-.menu li:nth-child(3) a:hover{
+.menu li:nth-child(3) a:hover, .menu li:nth-child(3) a.active{
   color: #FF00FF;
 }
-.menu li:nth-child(4) a:hover{
+.menu li:nth-child(4) a:hover, .menu li:nth-child(4) a.active{
   color: #F72A00;
 }
 
@@ -208,6 +212,26 @@ body {
   flex: 2;
 }
 
+.RD {
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+
+.RD div {
+  padding: 1em;
+}
+
+.explanations {
+  border-bottom: 8px solid black;
+}
+
+.saturation-header .image-service{
+  padding: 1em;
+}
+.saturation-header {
+  padding-bottom: 2em;
+}
+
 
 
 
@@ -262,5 +286,9 @@ body {
   }
   .explanations {
     flex-direction: column;
+  }
+  .RD div {
+    flex: 1 0 21%;
+    margin: 5px;
   }
 }
