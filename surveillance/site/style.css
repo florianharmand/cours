@@ -170,10 +170,10 @@ img{
   padding: 1em;
 }
 
-#credits a {
+#credits a, #references a {
   color: white;
 }
-#credits a:hover {
+#credits a:hover, #references a:hover {
   color: orange;
 }
 
@@ -281,7 +281,7 @@ body {
   #credits p, #references p {
     flex: 2;
   }
-  #credits ul, #references ul {
+  #credits .inner-ul, #references .inner-ul {
     flex: 2;
   }
   .explanations {
