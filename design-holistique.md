@@ -193,7 +193,11 @@ http://www.generative-gestaltung.de/1/code
     https://www.arthurperret.fr/blog/2021-09-04-cosma-de-la-fiche-au-graphe.html
 * Hyphe, autre outil de graphe, plus accessible que Gephi :
     https://hyphe.medialab.sciences-po.fr/
-
+* L'outil Roam :
+    https://roamresearch.com/
+* Obsidian :
+    https://obsidian.md/
+    
 
 
 ## 2.3. Étude intrinsèque
