@@ -1,8 +1,8 @@
-# Design holistique : système, réseau, dispositif
+Title : Design holistique : système, réseau, dispositif
 
-## 1. Théories et concepts
+# 1. Théories et concepts
 
-### 1.0. Introduction
+## 1.0. Introduction
 
 La pratique du design requiert parfois de gagner en abstraction pour faire face à la complexité d'un problème. En effet, il peut être salvateur de s'extraire pour un temps de l'exercice pragmatique et intuitif quotidien pour faire appel à des concepts susceptibles de faire avancer le projet de design.
 
@@ -14,9 +14,9 @@ Bien que de nombreux concepts jalonnent voire structurent la théorie du design 
 
 Comme ils considèrent des items d'un tout en relations, analysent des éléments en interconnexion, éclairent les ensembles complexes et hétérogènes, ces concepts sont ici rassemblés sous la bannière d'un **design holistique** – faute d'un meilleur mot pour le moment. C'est-à-dire qu'ils observent le terrain et l'objet du design dans leurs complexité et interdépendance multifactorielle. Au sein du projet, nous allons voir qu'ils peuvent à la fois soutenir l'**analyse** du terrain (phase de découverte) et la **représentation** d'un objet en cours de conception (phase de définition).
 
-### 1.1. Le système
+## 1.1. Le système
 
-#### Essai de définition
+### Essai de définition
 
 Un système peut être défini par un ensemble d'items en interrelations. Il est structuré et organise ses items vers une fin donnée. L'historien Bertrand Gille parle de **système technique** pour désigner le phénomène d'interconnexion des techniques d'une époque et leur interdépendance avec des systèmes non technique : juridique, culturel, etc. (Gille, 1978). Le technocritique Jacques Ellul emploie le terme de **système technicien** pour désigner l'ensemble des techniques (unifiées par l'informatique) qui transforme notre société tout entière de l'intérieur (Ellul, 2012 [1977]). Dans un autre registre, évoquons les **systèmes d'organisation des connaissances** (Zacklad, 2019) qui sont des méthodes d'organisation de la connaissance visant à les relier, les rendre accessibles et compréhensibles. Ces trois exemples d'emploi du terme de système touchent de près ou de loin le design mais ont en commun d'étudier un phénomène dans sa globalité, dans l'analyse des différents éléments et de leurs interactions.
 
@@ -30,20 +30,20 @@ Le scientifique cherche à sortir des modèles fermés de la physique pour trouv
 
 > Ainsi, il existe des modèles, des principes et des lois, qui s’appliquent aux systèmes généralisés ou à leurs sous-systèmes ; ils ne tiennent pas compte de leur espèce particulière, de la nature de leurs éléments et des relations ou « forces » entre ceux-ci. Le besoin d’une théorie qui ne s’applique pas à des systèmes d’un type plus ou moins spécial, mais aux principes des systèmes en général, est donc légitime. En ce sens, nous réclamons une nouvelle discipline, intitulée *théorie générale des systèmes*. Son but est de formuler les principes valables pour tout système, et d’en tirer les conséquences. (Von Bertalanffy, 2012 [1968], p. 31).
 
-#### Notions afférentes
+### Notions afférentes
 
 Von Bertalanffy apporte nombre de notions afférentes au concept de système, potentiellement éclairantes en design : 
 * **Systèmes fermés et systèmes ouverts.** Tandis que la physique raisonne sur les objets en système fermé, la biologie s'intéresse à son objet dans son environnement, c'est-à-dire aux systèmes ouverts. Cette prise en compte du milieu ou environnement (selon les positionnements) est cruciale dans l'exercice du design.
 * **Équifinalité.** C'est en quelque sorte le fait d'arriver à un même état stable par des voies différentes. Cela se vérifie quand plusieurs designers déploient parallèlement des manières de faire singulières visant à résorber une même situation problématique.
 * **Similitudes structurelles ou isomorphismes.** Si l'on postule qu'il existe des propriétés générales au sein des systèmes de domaines différents, il y a potentiellement des transferts possibles entre ces systèmes.
 
-#### Limites
+### Limites
 
 Mais Von Bertalanffy prévient son lecteur quant aux transpositions hasardeuses entre systèmes. Par exemple, il est tout à fait possible qu'une analogie entre un système d'organisation animale et un système politique humain produise un modèle totalitaire ! En résumé, tout motif ne peut pas être transposé d'un système à un autre. 
 
 > Quels sont les principes communs aux divers niveaux d’organisation et qu’on peut légitimement transférer d’un niveau à un autre ? Quels sont au contraire les principes spécifiques dont l’extrapolation amène des erreurs dangereuses ? (Von Bertalanffy, 2012 [1968], pp. 32-33).
 
-#### Ouvertures
+### Ouvertures
 
 Notons que la théorie générale des systèmes entend couvrir d'autres théories systémiques comme la cybernétique, la théorie de l'information ou encore la théorie des jeux.
 
@@ -57,7 +57,7 @@ Pour corriger cette entropie et organiser un système, le **feedback** (ou parfo
 
 Un exemple : le thermostat d'un système de chauffage est un système basique s'équilibrant grâce à une boucle de rétroaction.
 
-#### Le système en design
+### Le système en design
 
 L'intérêt d'une approche systémique en design est de considérer son objet de design dans son milieu (ou environnement), c'est-à-dire comme un système ouvert. Raisonner sur son objet en vase clos, sans le confronter ni à la critique ni au réel, expose cette production en apparence irréprochable à être inopérante sur le terrain. Déployer son prototype sur le terrain au plus tôt permet de repérer ces éléments exogènes difficiles à anticiper. 
 
@@ -67,9 +67,9 @@ Aussi, le designer doit s'intéresser aux isomorphismes et transferts possibles 
 
 Enfin, le design partage avec le projet de Von Bertalanffy une position transdisciplinaire. Il connecte les disciplines dans le but de produire de nouveaux objets et/ou de nouvelles manières de faire.
 
-### 1.2. Le réseau
+## 1.2. Le réseau
 
-#### Essai de définition
+### Essai de définition
 
 Le réseau contient dans son étymologie ses nombreux sens. Il y a dans son origine latine *rēte*, ou encore *reticulum*, la notion de maillage, de tissu, d'entrelacs, d'intersection. Mais il est également cousin de "rets" en français, qui signifie le filet voire le piège. Même si l'on en retient essentiellement sa manifestation informatique globale, Internet (pour International Network), le réseau caractérise dans divers domaines des ensembles d'items interconnectés.
 
@@ -81,18 +81,18 @@ Historiquement, le réseau a servi en médecine à décrire les systèmes sangui
 
 L'interconnexion généralisée permise par l'**informatique** a incarné et démocratisé le paradigme du réseau. Ce que l'on qualifie de **numérique** n'est autre que la strate des usages de l'informatique.
 
-#### Limites
+### Limites
 
 Aujourd'hui, le réseau est devenu le mode hégémonique de représentation d'un phénomène. Or penser un objet sous la forme d'un réseau n'est pas toujours pertinent. L'autorité graphique des visualisations de données fournit parfois des objets plus cosmétiques qu'intelligibles. Et il n'est pas bon de penser tout objet en réseau. Par exemple, la scénographie d'un musée (muséographie) sera peut-être davantage pertinente si elle épouse la forme narrative que la forme réticulaire.
 
-#### Le réseau en design
+### Le réseau en design
 
 Le réseau recèle une double utilité en design. Comme l'évoquait Musso, il peut donner un voir l'objet complexe que l'on souhaite concevoir (**structure**) mais aussi modéliser un problème, discourir sur un objet (**représentation**). Le réseau est d'autant plus mobilisable en design numérique, champ spécifique du design dans lequel le paradigme réticulaire devient non seulement un mode de pensée mais aussi un mode de travail. 
 
 
-### 1.3. Le dispositif
+## 1.3. Le dispositif
 
-#### Essai de définition
+### Essai de définition
 
 Le dispositif prolonge et précise le concept de réseau. Extrêmement mobilisé en Science de l'Information, son usage est pour certains "sclérosé" (Gavillet, 2010).
 
@@ -112,21 +112,21 @@ Si le corpus de Foucault compte uniquement des dispositifs disciplinaires, il es
 
 > Le but d’une analyse dispositive est de déterminer dans le réseau d’éléments hétérogènes le mode de gouvernance, les modes de contrôle, les formes de pouvoir légitime, la manière dont sont insidieusement orientés les comportements, les gestes et les pensées des hommes, tout en permettant d’étudier les résistances des sujets (Larroche, 2018, p. 89).
 
-#### Caractérisation du dispositif
+### Caractérisation du dispositif
 
 Le dispositif est subtil à définir mais il est possible d'en rassembler quelques traits caractéristiques que nous ne pourrons développer ici. Ils se base sur le corpus Foucaldien contrebalancé par des dispositifs "contemporains" et non-disciplinaire (en tout cas explicitement).
 
 Le dispositif possède nécessairement une **structure hétérogène** au sein de laquelle sont distribuées de **nombreuses fonctions**. Il correspond à une **répartition spatiale** au sein de laquelle des routines se déploient selon une **planification temporelle**. Il met en place des jeux d'intériorité et d'extériorité** (réalité augmentée, géolocalisation, etc.) et modifie les mouvements ou comportements humains. Fonctionnant par **immersion** des sujets dans son périmètre, le dispositif témoigne d'une **homogénéité applicative** touchant indifféremment les individus en son sein. Il fonctionne selon une **double automatisation** : certains scripts servent son homéostasie, d'autres s'appliquent aux sujets évoluant dans le dispositif se voyant prescrire des actions. Il a également une **tendance expansive**, fonctionnant plus efficacement sur les grandes échelles. Au sein du dispositif s'opère une **qualification des sujets et des objets**, taxonomie nécessaire à un processus typique de **production de données ou d'information** à leur égard. Concernant sa finalité, le dispositif vise généralement à améliorer le degré d'organisation de son milieu de déploiement : il a une **portée homéostatique** et sous-tend une **idéologie organisatrice**. Deux derniers facteurs ne sont pas triviaux. Le dispositif possède un **potentiel de mutation**, ses fonctions pouvant dévier ou s'étendre d'un domaine à un autre. Enfin, son insertion pervasive, fluide voire invisible dans un milieu donné montre à quel point il s'opère une **naturalisation de l'artifice** pour les sujets immergés.
 
-#### Le dispositif en design
+### Le dispositif en design
 
 Le design numérique et le design de service sont deux champs spécifiques qui déploient des solutions complexes dans leur milieu d'intervention. Le concept de dispositif permet d'éclairer l'intrication des rapports de force au sein de ces livrables. Organiser des sujets et objets dans un but donné n'est-il pas une mission du design ? Le dispositif est donc un concept opératoire qui permet tant d'analyser un service existant que d'en concevoir un nouveau. Il questionne aussi l'éthique du designer puisqu'il met en tension les scripts que l'équipe de conception imagine face aux usages effectifs des utilisateurs.
 
 Un exemple : lors d'un projet de refonte des services d'une bibliothèque universitaire, un groupe d'apprentis designers a développé un dispositif signalétique facilitant l'orientation des usagers. Pour ce faire, ils ont organisé des signes disparates mais complémentaires (panneaux d'affichage, marquage au sol et autres indicateurs visuels ou textuels aiguillant consciemment ou inconsciemment les étudiants au sein du bâtiment.
 
-### 1.4. Approches complémentaires
+## 1.4. Approches complémentaires
 
-#### L'approche écologique (échelle terrain)
+### L'approche écologique (échelle terrain)
 
 Bien qu'elle ne constitue pas une théorie spécifique, une approche écologique devrait être un impératif de design. Ce n'est pas (ou pas seulement) d'une écologie politique dont on parle mais d'une écologie comme cadre scientifique.
 
@@ -139,7 +139,7 @@ Cela permet d'imaginer quelques étapes d'un travail de méthodologie "écologiq
 * Une explicitation des interactions au sein du système (mise en relation) : utilisateur/service, utilisateur/utilisateur, utilisateur/concepteur, etc.
 * Une anticipation des conséquences individuelles, collectives, sociales (acceptabilité dans le milieu) : implications diverses du système, externalités, détournements, etc.
 
-#### Le complexe fonctionnel (échelle objet)
+### Le complexe fonctionnel (échelle objet)
 
 Dans son ouvrage canonique *Design for the Real World*, le designer Victor Papanek explique sa vision du design en un graphique qui interconnecte de nombreuses composantes que l'on trouve trop souvent segmentées :
 
@@ -155,13 +155,13 @@ Il liste ainsi les réflexions insécables d'un projet de design :
 * **L'esthétique.** Soit ce qui anime la sensibilité du destinataire de l'objet de design.
 
 
-## 2. Méthodes et outils
+# 2. Méthodes et outils
 
-### Introduction
+## 2.0. Introduction
 
 Le système, le réseau et le dispositif ne sont pas que des abstractions théoriques. Ils peuvent être employés dans la pratique, à différente étape du projet de design et dans différents buts. Voici quelques propositions mobilisant les concepts évoqués.
 
-### 2.1. Carte heuristique
+## 2.1. Carte heuristique
 
 La carte heuristique (parfois appelée *mind map*) contient dans son nom son dessein : l'heuristique signifie une démarche d'exploration et de découverte. Elle est donc idéale pour défricher un terrain inconnu au début d'un projet nouveau.
 
@@ -177,17 +177,26 @@ https://www.mindmaps.app/
 * Miro :
 https://miro.com/mind-map/
 
-### 2.2. Représentations réticulaires
+## 2.2. Représentations réticulaires
 
 Le recours aux représentations réticulaires permises par des librairies d'algorithmes permet parfois de révéler des phénomènes impossibles à repérer pour l'humain depuis les données brutes. Dans un "raisonnement graphique", il devient possible d'appréhender la complexité à l'aide d'outils numériques.
 
 * La librairie de code D3.js offre de nombreuses représentations :
-https://observablehq.com/@d3/gallery
+    https://observablehq.com/@d3/gallery
 * Le site de Generative Gestaltung permet d'expérimenter différentes représentations réticulaires (et autres) :
 http://www.generative-gestaltung.de/1/code
 * Il existe également des logiciels plus spécifiques à l'exploration de textes (bibliométrie) aboutissant à des représentations graphiques : http://iramuteq.org/
+* Gephi est un outil de visualisation de graphe :
+    https://gephi.org/
+* Cosma, développé au sein de l'UBM :
+    https://cosma.graphlab.fr/
+    https://www.arthurperret.fr/blog/2021-09-04-cosma-de-la-fiche-au-graphe.html
+* Hyphe, autre outil de graphe, plus accessible que Gephi :
+    https://hyphe.medialab.sciences-po.fr/
 
-### 2.3. Étude intrinsèque
+
+
+## 2.3. Étude intrinsèque
 
 L'étude intrinsèque du pionnier des SIC Abraham Moles peut soutenir le travail du designer. Elle vise à éclairer la complexité d'un objet selon deux axes : structurel et fonctionnel.
 
@@ -208,7 +217,7 @@ La complexité fonctionnelle vise à éclater les différentes fonctions constit
 Ces deux exercices cartographiques peuvent ensuite être enrichis selon les besoins du projet.
 
 
-### 2.4. Schémas et diagrammes
+## 2.4. Schémas et diagrammes
 
 Le couple schéma-diagramme recoupe l'étude intrinsèque de Moles et les termes de Foucault et de Deleuze. Le schéma donne à voir la structure d'un ensemble, il explicite son agencement. Le diagramme explique les fonctions d'un dispositif et les rapports de force engendrés (échanges d'informations, mises en capacité, etc.).
 
